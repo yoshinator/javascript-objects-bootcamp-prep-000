@@ -1,4 +1,4 @@
-var playlist = new Object({journey1: 'don\'t stop believing'});
+var playlist = new Object({});
 
 function updatePlaylist(list, artist, songTitle){
 list.artist = songTitle;

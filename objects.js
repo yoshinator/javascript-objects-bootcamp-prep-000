@@ -6,5 +6,5 @@ return list;
 }
 
 function removeFromPlaylist(list, artistName){
-  
+  delete list
 }

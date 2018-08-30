@@ -6,8 +6,8 @@ return list;
 }
 
 function removeFromPlaylist(list, artistName){
-  console.log(list)
-  console.log(artistName)
+  console.log(list)// checking parameters are received correctly
+  console.log(artistName)// ''                            //
 delete list.artistName;
 }
 

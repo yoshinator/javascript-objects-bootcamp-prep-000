@@ -11,4 +11,4 @@ function removeFromPlaylist(list, artistName){
 }
 
 console.log(playlist)
-removeFromPlaylist(playlist, journey)
+removeFromPlaylist(playlist, 'journey')

@@ -6,8 +6,7 @@ return list;
 }
 
 function removeFromPlaylist(list, artistName){
-  
- // delete returns true if item succesfully deleted. 
+// delete returns true if item succesfully deleted. 
   delete list.artistName;
     return list;
   

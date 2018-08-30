@@ -8,9 +8,7 @@ return list;
 function removeFromPlaylist(list, artistName){
   
  // delete returns true if item succesfully deleted. 
-  if (delete list.artistName){
+  delete list.artistName;
     return list;
-  }
-  else
-  return "something went wrong";
+  
 }

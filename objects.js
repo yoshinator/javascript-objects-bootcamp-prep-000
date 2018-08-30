@@ -1,4 +1,4 @@
-var playlist{journey: "don't stop believing"};
+var playlist = {journey: "don't stop believing"};
 
 function updatePlaylist(list, artistName, songTitle){
 list[artistName] = songTitle;

@@ -11,7 +11,7 @@ function removeFromPlaylist(list, artistName){
 delete list.artistName;
 }
 
-console.log(playlist)
+
 //should delete the key value pair but doesn't also tried it with single quotes and no quotes
 removeFromPlaylist(playlist, "journey")
 // still displaying { journey: 'don\'t stop believing' }

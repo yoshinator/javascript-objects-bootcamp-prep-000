@@ -1,6 +1,10 @@
 var playlist = new Object({journey: "don't stop believing"});
 
-function updatePlaylist(list, artist, songTitle){
-list[artist] = songTitle;
+function updatePlaylist(list, artistName, songTitle){
+list[artistName] = songTitle;
 return list;
+}
+
+function removeFromPlaylist(list, artistName){
+  
 }

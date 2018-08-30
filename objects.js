@@ -6,13 +6,6 @@ return list;
 }
 
 function removeFromPlaylist(list, artistName){
-  console.log(list)// checking parameters are received correctly
-  console.log(artistName)// ''                            //
-delete list.artistName;
+delete list[artistName];
 }
 
-
-//should delete the key value pair but doesn't also tried it with single quotes and no quotes
-removeFromPlaylist(playlist, "journey")
-// still displaying { journey: 'don\'t stop believing' }
-console.log(playlist)
